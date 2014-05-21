@@ -11,6 +11,7 @@ This project is of no use to anyone except *me*. I'm using it as a play project 
 * Request
 * Streams
 * Async
- 
 
 
+I'm working on a Git workflow that allows me to work on the project from several
+different machines at once. This modification is made via my work machine.
