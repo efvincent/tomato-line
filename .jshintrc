@@ -24,15 +24,11 @@
 
   "globals": {
     "angular": false,
-    "udr": false,
     "_": false,
     "$": false,
-    "moment": false,
     "indexedDB": false,
     "IDBKeyRange": false,
     "ActiveXObject": false,
-    "Foundry": false,
-    "performance": false,
-    "sift": false
+    "performance": false
   }
 }
