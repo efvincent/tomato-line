@@ -1,0 +1,38 @@
+{
+  "-W015": true,
+  "lastsemic": true,
+  "node": true,
+  "esnext": true,
+  "laxcomma": true,
+  "moz": true,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "quotmark": "single",
+  "regexp": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "trailing": true,
+  "smarttabs": true,
+
+  "globals": {
+    "angular": false,
+    "udr": false,
+    "_": false,
+    "$": false,
+    "moment": false,
+    "indexedDB": false,
+    "IDBKeyRange": false,
+    "ActiveXObject": false,
+    "Foundry": false,
+    "performance": false,
+    "sift": false
+  }
+}

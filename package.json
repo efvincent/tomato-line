@@ -1,0 +1,33 @@
+{
+  "name": "gulp-beta-test",
+  "version": "0.0.0",
+  "description": "Playing with gulp, node, and git",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric F. Vincent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efvincent/tomato-line.git"
+  },
+  "bugs": {
+    "url": "https://github.com/efvincent/tomato-line/issues"
+  },
+  "homepage": "https://github.com/efvincent/tomato-line",
+  "devDependencies": {
+    "gulp-newer": "~0.3.0",
+    "gulp-traceur": "~0.6.0",
+    "gulp-jshint": "~1.6.1",
+    "jshint-summary": "~0.3.0",
+    "through2": "~0.4.1",
+    "gulp-clean": "~0.2.4",
+    "gulp": "~3.6.2"
+  },
+  "dependencies": {
+    "extend": "~1.2.1",
+    "cli-table": "~0.3.0",
+    "request": "~2.36.0"
+  }
+}
