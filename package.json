@@ -28,6 +28,7 @@
   "dependencies": {
     "extend": "~1.2.1",
     "cli-table": "~0.3.0",
-    "request": "~2.36.0"
+    "request": "~2.36.0",
+    "yargs": "~1.2.2"
   }
 }

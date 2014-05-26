@@ -1,8 +1,13 @@
 var movies = require('./movieList.js')
-  , dvds = require('./dvdList.js');
+  , argv = require('yargs').usage('tomato-line [--(p)roxy myproxy]').alias('p','proxy').argv;
 
-// this is just a couple of examples. Need to add some cli UI goodness
-movies.setProxy('http://firewall:80');
+var proxy = '';
+
+if (argv.proxy) {
+  proxy = argv.proxy;
+}
+
+movies.setProxy(proxy);
 
 movies.boxOffice();
-//dvds.currentReleases();
+
